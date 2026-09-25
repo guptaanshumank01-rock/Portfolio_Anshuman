@@ -1,0 +1,534 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Schedule a professional meeting, demo call, or technical consultation with Anshuman Gupta." />
+  <title>Schedule a Meeting — Anshuman Gupta</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500;600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+
+  <!-- Header Navigation -->
+  <header class="nav wrap">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">A</span>
+      <span>anshuman<span class="muted">.dev</span></span>
+    </a>
+    <nav>
+      <a href="index.html#work">Work</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html#contact">Contact</a>
+      <a href="connect.html" class="active">Schedule Demo / Meet</a>
+    </nav>
+    <div class="nav-actions">
+      <button type="button" class="nav-btn-meet open-meeting-drawer">
+        <span class="pulse-dot"></span> Quick Drawer <span>↗</span>
+      </button>
+      <a class="nav-cta" href="mailto:hello@anshuman.dev">Let's talk <span>↗</span></a>
+    </div>
+  </header>
+
+  <!-- Main Scheduler Page -->
+  <main class="connect-page-main wrap" id="top">
+    <!-- Page Header -->
+    <section class="connect-header">
+      <div class="eyebrow"><span class="pulse"></span> 04 / Professional Connection &amp; Meeting Scheduler</div>
+      <h1>Let's connect &amp;<br><em>schedule a conversation.</em></h1>
+      <p class="connect-lead">
+        Whether you have an upcoming digital product, need technical consultation, want a project demo review, or wish to discuss engineering leadership opportunities — pick a time slot below that fits your schedule.
+      </p>
+    </section>
+
+    <!-- 2-Column Responsive Layout -->
+    <div class="connect-layout">
+      <!-- Left Column: Profile, Dual Clock, Meeting Details & FAQs -->
+      <aside class="connect-sidebar">
+        <!-- Profile Card -->
+        <div class="profile-card">
+          <div class="profile-card-top">
+            <div class="profile-avatar">AG</div>
+            <div class="profile-name-group">
+              <h3>Anshuman Gupta</h3>
+              <p>Full-Stack Developer &amp; Product Builder</p>
+            </div>
+          </div>
+          
+          <div class="profile-status-badge">
+            <span class="pulse"></span> Available for Q1/Q2 Consultations
+          </div>
+
+          <p class="profile-bio">
+            I help startups, agencies, and enterprise teams architect modern web applications, high-performance interfaces, and thoughtful digital products.
+          </p>
+
+          <div class="profile-meta-list">
+            <div class="meta-item">
+              <span>Location:</span>
+              <strong>Bengaluru, India (IST)</strong>
+            </div>
+            <div class="meta-item">
+              <span>Work Mode:</span>
+              <strong>Global Remote &amp; Hybrid</strong>
+            </div>
+            <div class="meta-item">
+              <span>Turnaround:</span>
+              <strong>&lt; 4 Hours</strong>
+            </div>
+            <div class="meta-item">
+              <span>Video Tool:</span>
+              <strong>Google Meet / Zoom</strong>
+            </div>
+          </div>
+        </div>
+
+        <!-- Real-Time Dual Timezone Clock -->
+        <div class="dual-clock-card">
+          <div class="dual-clock-header">
+            <span>🌐 Live Time Synchronization</span>
+            <span>REAL-TIME</span>
+          </div>
+          <div class="clock-grid">
+            <div class="clock-item">
+              <div class="clock-label">Your Local Time</div>
+              <div class="clock-time" id="userLocalClock">--:--:-- --</div>
+              <div class="clock-zone" id="userLocalZone">Local Timezone</div>
+            </div>
+            <div class="clock-item">
+              <div class="clock-label">Anshuman's Time (IST)</div>
+              <div class="clock-time" id="hostIstClock">--:--:-- --</div>
+              <div class="clock-zone">Asia/Kolkata (UTC+5:30)</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Meeting Formats & What to Expect -->
+        <div class="perks-card">
+          <h4>Meeting Formats &amp; Topics</h4>
+          <ul class="perks-list">
+            <li>
+              <span class="bullet-icon">⚡</span>
+              <div><strong>15-Min Quick Intro:</strong> High-level team introduction, alignment check, and initial vibe check.</div>
+            </li>
+            <li>
+              <span class="bullet-icon">💡</span>
+              <div><strong>30-Min Tech Consultation:</strong> Architecture review, frontend/backend stack evaluation, and code strategy.</div>
+            </li>
+            <li>
+              <span class="bullet-icon">🎯</span>
+              <div><strong>45-Min Project Discovery &amp; Demo:</strong> Deep dive into project requirements, UX/UI scope, and deliverables.</div>
+            </li>
+            <li>
+              <span class="bullet-icon">🤝</span>
+              <div><strong>Hiring &amp; Team Fit:</strong> Technical interviews, contract discussions, and leadership roles.</div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Booking FAQs -->
+        <div class="perks-card">
+          <h4>Good to Know</h4>
+          <ul class="perks-list">
+            <li>
+              <span class="bullet-icon">✓</span>
+              <div><strong>Instant Calendar Invite:</strong> Automatically generates Google Calendar &amp; .ics file.</div>
+            </li>
+            <li>
+              <span class="bullet-icon">✓</span>
+              <div><strong>NDA &amp; Confidentiality:</strong> Happy to sign mutual NDAs for sensitive project concepts.</div>
+            </li>
+            <li>
+              <span class="bullet-icon">✓</span>
+              <div><strong>Direct Contact:</strong> Prefer email? Reach out directly at <a href="mailto:hello@anshuman.dev" style="color: var(--ink); font-weight: 600;">hello@anshuman.dev</a>.</div>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!-- Right Column: Full Professional Meeting Booking Form -->
+      <section class="connect-form-container">
+        <h2 class="connect-form-title">Book a Meeting</h2>
+        <p class="connect-form-subtitle">Fill in your details and pick your preferred time slot. You will receive an instant calendar invite.</p>
+
+        <form id="pageMeetingForm" novalidate>
+          <!-- 1. Meeting Purpose -->
+          <div class="form-section">
+            <label class="form-label">1. Purpose of Meeting <span class="required">*</span></label>
+            <div class="chip-group">
+              <button type="button" class="chip-btn purpose-chip is-active" data-purpose="demo" data-purpose-label="Project Discovery & Demo">💼 Project Discovery / Demo</button>
+              <button type="button" class="chip-btn purpose-chip" data-purpose="hiring" data-purpose-label="Hiring & Engineering Role">🤝 Hiring / Recruitment</button>
+              <button type="button" class="chip-btn purpose-chip" data-purpose="consulting" data-purpose-label="Technical Consulting & Architecture">💡 Tech Consulting</button>
+              <button type="button" class="chip-btn purpose-chip" data-purpose="coffee" data-purpose-label="Virtual Coffee & Intro">☕ Quick Virtual Coffee</button>
+              <button type="button" class="chip-btn purpose-chip" data-purpose="other" data-purpose-label="Partnership & Collaboration">🚀 Partnership</button>
+            </div>
+          </div>
+
+          <!-- 2. Meeting Duration & Platform -->
+          <div class="form-section">
+            <label class="form-label">2. Duration &amp; Video Platform <span class="required">*</span></label>
+            <div class="chip-group" style="margin-bottom: 12px;">
+              <button type="button" class="chip-btn duration-chip" data-duration="15 min">⚡ 15 min (Quick sync)</button>
+              <button type="button" class="chip-btn duration-chip is-active" data-duration="30 min">⏱️ 30 min (Standard call)</button>
+              <button type="button" class="chip-btn duration-chip" data-duration="45 min">🎯 45 min (Deep dive)</button>
+            </div>
+            <select class="form-select" name="platform" aria-label="Meeting Platform">
+              <option value="Google Meet" selected>Google Meet (Direct Video Link)</option>
+              <option value="Zoom">Zoom Meeting</option>
+              <option value="Microsoft Teams">Microsoft Teams</option>
+              <option value="Phone Call">Direct Phone Call</option>
+            </select>
+          </div>
+
+          <!-- 3. Professional Contact Details -->
+          <div class="form-section">
+            <label class="form-label">3. Your Professional Details <span class="required">*</span></label>
+            <div class="form-grid-2" style="margin-bottom: 12px;">
+              <div>
+                <input type="text" class="form-input" name="full_name" placeholder="Full Name *" required />
+              </div>
+              <div>
+                <input type="email" class="form-input" name="work_email" placeholder="Work / Professional Email *" required />
+              </div>
+            </div>
+            <div class="form-grid-2">
+              <div>
+                <input type="text" class="form-input" name="company" placeholder="Company / Organization" />
+              </div>
+              <div>
+                <input type="text" class="form-input" name="role" placeholder="Your Role / Job Title" />
+              </div>
+            </div>
+          </div>
+
+          <!-- 4. Date & Time Slot -->
+          <div class="form-section">
+            <label class="form-label">4. Preferred Date &amp; Time Slot <span class="required">*</span></label>
+            <div class="form-grid-2" style="margin-bottom: 12px;">
+              <div>
+                <input type="date" class="form-input" name="meeting_date" required />
+              </div>
+              <div>
+                <select class="form-select" name="timezone" aria-label="Your Timezone">
+                  <option value="Asia/Kolkata">Asia/Kolkata (IST · UTC+5:30)</option>
+                  <option value="America/New_York">America/New_York (EST/EDT)</option>
+                  <option value="America/Los_Angeles">America/Los_Angeles (PST/PDT)</option>
+                  <option value="America/Chicago">America/Chicago (CST/CDT)</option>
+                  <option value="Europe/London">Europe/London (GMT/BST)</option>
+                  <option value="Europe/Berlin">Europe/Berlin (CET/CEST)</option>
+                  <option value="Asia/Singapore">Asia/Singapore (SGT)</option>
+                  <option value="Asia/Tokyo">Asia/Tokyo (JST)</option>
+                  <option value="Australia/Sydney">Australia/Sydney (AEST)</option>
+                  <option value="UTC">UTC Universal Time</option>
+                </select>
+              </div>
+            </div>
+
+            <span class="form-sublabel">Select available time slot:</span>
+            <div class="time-slot-grid">
+              <button type="button" class="time-slot-btn" data-time="10:00 AM">10:00 AM</button>
+              <button type="button" class="time-slot-btn" data-time="11:30 AM">11:30 AM</button>
+              <button type="button" class="time-slot-btn is-active" data-time="02:00 PM">02:00 PM</button>
+              <button type="button" class="time-slot-btn" data-time="03:30 PM">03:30 PM</button>
+              <button type="button" class="time-slot-btn" data-time="05:00 PM">05:00 PM</button>
+              <button type="button" class="time-slot-btn" data-time="07:00 PM">07:00 PM</button>
+            </div>
+          </div>
+
+          <!-- 5. Meeting Notes / Agenda -->
+          <div class="form-section">
+            <label class="form-label">5. Agenda &amp; Discussion Goals</label>
+            <textarea class="form-textarea" name="agenda" rows="4" placeholder="Briefly share what you'd like to discuss (e.g., project background, technical challenge, role details, or questions for Anshuman)..."></textarea>
+          </div>
+
+          <!-- 6. Additional Links (Optional) -->
+          <div class="form-section">
+            <label class="form-label">6. Reference Link (Optional)</label>
+            <input type="url" class="form-input" name="links" placeholder="https://linkedin.com/in/... or project brief / job spec URL" />
+          </div>
+
+          <!-- Live Summary Preview -->
+          <div class="meeting-preview-box">
+            <div class="meeting-preview-header">
+              <span class="preview-kicker">// MEETING SUMMARY PREVIEW</span>
+              <span class="preview-platform-badge">Google Meet</span>
+            </div>
+            <div class="preview-row">
+              <span class="preview-icon">📌</span>
+              <span class="preview-val-type">30 min · Project Discovery &amp; Demo</span>
+            </div>
+            <div class="preview-row">
+              <span class="preview-icon">📅</span>
+              <span class="preview-val-date">Selected Date</span>&nbsp;@&nbsp;<strong class="preview-val-time">02:00 PM</strong>&nbsp;<span class="preview-val-tz">(Local Time)</span>
+            </div>
+            <div class="preview-row">
+              <span class="preview-icon">👤</span>
+              <span>Host:&nbsp;<strong>Anshuman Gupta</strong> (India · IST)</span>
+            </div>
+          </div>
+
+          <!-- Submit Button -->
+          <button type="submit" class="drawer-submit-btn">
+            <span>Confirm &amp; Schedule Meeting</span>
+            <span class="btn-arrow">↗</span>
+          </button>
+        </form>
+
+        <!-- Booking Success Confirmation State -->
+        <div class="booking-success-state" id="pageSuccessState">
+          <div class="success-icon-badge">✓</div>
+          <h3 class="success-title">Meeting Request Confirmed!</h3>
+          <p class="success-subtitle">Your meeting details have been recorded. You can add this directly to your calendar or download the invite file below.</p>
+          
+          <div class="success-meeting-card">
+            <span class="success-ref-pill success-ref-id">#AG-MEET-1000</span>
+            <div class="success-detail-row">
+              <span class="success-label">Topic:</span>
+              <span class="success-value success-val-title">30 min · Project Discovery</span>
+            </div>
+            <div class="success-detail-row">
+              <span class="success-label">When:</span>
+              <span class="success-value success-val-when">Tomorrow @ 2:00 PM</span>
+            </div>
+            <div class="success-detail-row">
+              <span class="success-label">Platform:</span>
+              <span class="success-value success-val-platform">Google Meet</span>
+            </div>
+            <div class="success-detail-row">
+              <span class="success-label">Host:</span>
+              <span class="success-value success-val-host">Anshuman Gupta</span>
+            </div>
+            <div class="success-detail-row">
+              <span class="success-label">Attendee:</span>
+              <span class="success-value success-val-attendee">You</span>
+            </div>
+          </div>
+
+          <div class="success-actions">
+            <a href="#" class="btn-calendar-primary btn-add-google" target="_blank" rel="noopener">
+              <span>📅 Add to Google Calendar</span>
+            </a>
+            <a href="#" class="btn-calendar-secondary btn-download-ics">
+              <span>📥 Download .ics Calendar File</span>
+            </a>
+            <button type="button" class="btn-calendar-secondary btn-copy-summary">
+              <span>📋 Copy Meeting Details</span>
+            </button>
+            <button type="button" class="btn-reset-meeting">
+              Schedule Another Meeting
+            </button>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="wrap footer">
+    <span>© 2026 Anshuman Gupta</span>
+    <span>Designed &amp; built with intention.</span>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <!-- =========================================================================
+       RIGHT-SIDE SLIDE-OVER DRAWER COMPONENT
+       ========================================================================= -->
+  <div class="drawer-container" id="meetingDrawerContainer" role="dialog" aria-modal="true" aria-labelledby="drawerTitle">
+    <div class="drawer-backdrop" id="drawerBackdrop"></div>
+    
+    <aside class="drawer-panel">
+      <div class="drawer-header">
+        <div class="drawer-header-left">
+          <div class="drawer-eyebrow">
+            <span class="pulse"></span> Available for Meetings &amp; Consultations
+          </div>
+          <h2 class="drawer-title" id="drawerTitle">Quick Schedule</h2>
+          <p class="drawer-subtitle">Direct calendar booking with Anshuman Gupta.</p>
+        </div>
+        <button class="drawer-close-btn" id="drawerCloseBtn" type="button" aria-label="Close scheduler">✕</button>
+      </div>
+
+      <div class="drawer-notice">
+        <span>📍 Bengaluru, India (IST / UTC+5:30)</span>
+        <span class="notice-time">⚡ Reply time: &lt; 4 hrs</span>
+      </div>
+
+      <div class="drawer-body">
+        <form id="drawerMeetingForm" novalidate>
+          <div class="form-section">
+            <label class="form-label">1. Purpose of Meeting <span class="required">*</span></label>
+            <div class="chip-group">
+              <button type="button" class="chip-btn purpose-chip is-active" data-purpose="demo" data-purpose-label="Project Discovery & Demo">💼 Project Discovery / Demo</button>
+              <button type="button" class="chip-btn purpose-chip" data-purpose="hiring" data-purpose-label="Hiring & Engineering Role">🤝 Hiring / Recruitment</button>
+              <button type="button" class="chip-btn purpose-chip" data-purpose="consulting" data-purpose-label="Technical Consulting & Architecture">💡 Tech Consulting</button>
+              <button type="button" class="chip-btn purpose-chip" data-purpose="coffee" data-purpose-label="Virtual Coffee & Intro">☕ Quick Virtual Coffee</button>
+              <button type="button" class="chip-btn purpose-chip" data-purpose="other" data-purpose-label="Partnership & Collaboration">🚀 Partnership</button>
+            </div>
+          </div>
+
+          <div class="form-section">
+            <label class="form-label">2. Duration &amp; Platform <span class="required">*</span></label>
+            <div class="chip-group" style="margin-bottom: 12px;">
+              <button type="button" class="chip-btn duration-chip" data-duration="15 min">⚡ 15 min (Quick sync)</button>
+              <button type="button" class="chip-btn duration-chip is-active" data-duration="30 min">⏱️ 30 min (Standard)</button>
+              <button type="button" class="chip-btn duration-chip" data-duration="45 min">🎯 45 min (Deep dive)</button>
+            </div>
+            <select class="form-select" name="platform" aria-label="Meeting Platform">
+              <option value="Google Meet" selected>Google Meet (Video Link will be shared)</option>
+              <option value="Zoom">Zoom Meeting</option>
+              <option value="Microsoft Teams">Microsoft Teams</option>
+              <option value="Phone Call">Direct Phone Call</option>
+            </select>
+          </div>
+
+          <div class="form-section">
+            <label class="form-label">3. Your Information <span class="required">*</span></label>
+            <div class="form-grid-2" style="margin-bottom: 12px;">
+              <div>
+                <input type="text" class="form-input" name="full_name" placeholder="Full Name *" required />
+              </div>
+              <div>
+                <input type="email" class="form-input" name="work_email" placeholder="Work / Professional Email *" required />
+              </div>
+            </div>
+            <div class="form-grid-2">
+              <div>
+                <input type="text" class="form-input" name="company" placeholder="Company / Organization" />
+              </div>
+              <div>
+                <input type="text" class="form-input" name="role" placeholder="Your Role / Title" />
+              </div>
+            </div>
+          </div>
+
+          <div class="form-section">
+            <label class="form-label">4. Preferred Date &amp; Time Slot <span class="required">*</span></label>
+            <div class="form-grid-2" style="margin-bottom: 12px;">
+              <div>
+                <input type="date" class="form-input" name="meeting_date" required />
+              </div>
+              <div>
+                <select class="form-select" name="timezone" aria-label="Your Timezone">
+                  <option value="Asia/Kolkata">Asia/Kolkata (IST · UTC+5:30)</option>
+                  <option value="America/New_York">America/New_York (EST/EDT)</option>
+                  <option value="America/Los_Angeles">America/Los_Angeles (PST/PDT)</option>
+                  <option value="America/Chicago">America/Chicago (CST/CDT)</option>
+                  <option value="Europe/London">Europe/London (GMT/BST)</option>
+                  <option value="Europe/Berlin">Europe/Berlin (CET/CEST)</option>
+                  <option value="Asia/Singapore">Asia/Singapore (SGT)</option>
+                  <option value="Asia/Tokyo">Asia/Tokyo (JST)</option>
+                  <option value="Australia/Sydney">Australia/Sydney (AEST)</option>
+                  <option value="UTC">UTC Universal Time</option>
+                </select>
+              </div>
+            </div>
+
+            <span class="form-sublabel">Select time slot:</span>
+            <div class="time-slot-grid">
+              <button type="button" class="time-slot-btn" data-time="10:00 AM">10:00 AM</button>
+              <button type="button" class="time-slot-btn" data-time="11:30 AM">11:30 AM</button>
+              <button type="button" class="time-slot-btn is-active" data-time="02:00 PM">02:00 PM</button>
+              <button type="button" class="time-slot-btn" data-time="03:30 PM">03:30 PM</button>
+              <button type="button" class="time-slot-btn" data-time="05:00 PM">05:00 PM</button>
+              <button type="button" class="time-slot-btn" data-time="07:00 PM">07:00 PM</button>
+            </div>
+          </div>
+
+          <div class="form-section">
+            <label class="form-label">5. Agenda &amp; Discussion Topics</label>
+            <textarea class="form-textarea" name="agenda" rows="3" placeholder="Briefly describe your project, goals, or questions..."></textarea>
+          </div>
+
+          <div class="form-section">
+            <label class="form-label">6. Reference Link (Optional)</label>
+            <input type="url" class="form-input" name="links" placeholder="https://linkedin.com/in/... or project / doc link" />
+          </div>
+
+          <div class="meeting-preview-box">
+            <div class="meeting-preview-header">
+              <span class="preview-kicker">// MEETING SUMMARY</span>
+              <span class="preview-platform-badge">Google Meet</span>
+            </div>
+            <div class="preview-row">
+              <span class="preview-icon">📌</span>
+              <span class="preview-val-type">30 min · Project Discovery &amp; Demo</span>
+            </div>
+            <div class="preview-row">
+              <span class="preview-icon">📅</span>
+              <span class="preview-val-date">Selected Date</span>&nbsp;@&nbsp;<strong class="preview-val-time">02:00 PM</strong>&nbsp;<span class="preview-val-tz">(Local Time)</span>
+            </div>
+            <div class="preview-row">
+              <span class="preview-icon">👤</span>
+              <span>Host:&nbsp;<strong>Anshuman Gupta</strong> (India · IST)</span>
+            </div>
+          </div>
+
+          <button type="submit" class="drawer-submit-btn">
+            <span>Confirm &amp; Schedule Meeting</span>
+            <span class="btn-arrow">↗</span>
+          </button>
+        </form>
+
+        <div class="booking-success-state" id="drawerSuccessState">
+          <div class="success-icon-badge">✓</div>
+          <h3 class="success-title">Meeting Request Confirmed!</h3>
+          <p class="success-subtitle">A calendar invite has been prepared. You can add it directly to your calendar below.</p>
+          
+          <div class="success-meeting-card">
+            <span class="success-ref-pill success-ref-id">#AG-MEET-1000</span>
+            <div class="success-detail-row">
+              <span class="success-label">Topic:</span>
+              <span class="success-value success-val-title">30 min · Project Discovery</span>
+            </div>
+            <div class="success-detail-row">
+              <span class="success-label">When:</span>
+              <span class="success-value success-val-when">Tomorrow @ 2:00 PM</span>
+            </div>
+            <div class="success-detail-row">
+              <span class="success-label">Platform:</span>
+              <span class="success-value success-val-platform">Google Meet</span>
+            </div>
+            <div class="success-detail-row">
+              <span class="success-label">Host:</span>
+              <span class="success-value success-val-host">Anshuman Gupta</span>
+            </div>
+            <div class="success-detail-row">
+              <span class="success-label">Attendee:</span>
+              <span class="success-value success-val-attendee">You</span>
+            </div>
+          </div>
+
+          <div class="success-actions">
+            <a href="#" class="btn-calendar-primary btn-add-google" target="_blank" rel="noopener">
+              <span>📅 Add to Google Calendar</span>
+            </a>
+            <a href="#" class="btn-calendar-secondary btn-download-ics">
+              <span>📥 Download .ics Calendar File</span>
+            </a>
+            <button type="button" class="btn-calendar-secondary btn-copy-summary">
+              <span>📋 Copy Meeting Details</span>
+            </button>
+            <button type="button" class="btn-reset-meeting">
+              Schedule Another Meeting
+            </button>
+          </div>
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  <!-- Floating Right-Side CTA Button -->
+  <aside aria-label="Quick Meeting Scheduler Trigger">
+    <button type="button" class="floating-meeting-cta open-meeting-drawer" aria-haspopup="dialog" aria-label="Schedule a professional meeting">
+      <span class="pulse-ring"></span>
+      <span class="cta-label">📅 Book a Meeting</span>
+      <span class="cta-arrow">↗</span>
+    </button>
+  </aside>
+
+  <script src="script.js"></script>
+</body>
+</html>
