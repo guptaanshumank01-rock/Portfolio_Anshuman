@@ -1,0 +1,2 @@
+document.querySelectorAll('a[href^="#"]').forEach(link=>link.addEventListener('click',e=>{const target=document.querySelector(link.getAttribute('href'));if(target){e.preventDefault();target.scrollIntoView({behavior:'smooth'})}}));
+const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting)entry.target.classList.add('show')}),{threshold:.12});document.querySelectorAll('.project,.about-grid,.contact h2').forEach(el=>{el.classList.add('reveal');observer.observe(el)});
